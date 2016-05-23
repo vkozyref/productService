@@ -1,0 +1,35 @@
+<html doctype="html">
+    <head>
+        <title>Products</title>
+        <base href="/">
+        <!-- build:css css/app.css -->
+        <link rel="stylesheet" href="app/styles/products.css"/>
+        <!-- endbuild -->
+        <!-- build:vendorCss css/vendor.css -->
+        <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.css"/>
+        <!-- endbuild -->
+    </head>
+    <body>
+         <div ui-view>         
+         </div>
+         
+         <!-- build:vendorJs js/lib.js -->
+         <script src="node_modules/angular/angular.js"></script>
+         <script src="node_modules/angular-ui-router/release/angular-ui-router.js"></script>
+         <!-- endbuild -->
+         <!-- build:templates js/templates.js -->
+         <script src="templates/templates.js"></script>
+         <!-- endbuild -->
+         <!-- build:js js/app.js -->
+         <script src="app/scripts/modules/products.module.js"></script>
+         <script src="app/scripts/common/factories/serverCall.factory.js"></script>
+         <script src="app/scripts/common/constants/appConfig.js"></script>
+         <script src="app/scripts/config/config.js"></script>
+         <script src="app/scripts/config/routes.js"></script>
+        
+         <script src="app/scripts/products/products.controller.js"></script>
+         <script src="app/scripts/products/directives/productView/productView.directive.js"></script>
+         <script src="app/scripts/products/directives/search/search.directive.js"></script>
+         <!-- endbuild -->
+    </body>    
+</html> 
